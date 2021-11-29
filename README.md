@@ -1,3 +1,15 @@
+## Project Screenshots
+
+### Dashboard layout
+![image](https://user-images.githubusercontent.com/17979853/143860456-c2b38719-e9df-43a5-8d1d-16d39b4f606b.png)
+
+### Create New Project form
+![image](https://user-images.githubusercontent.com/17979853/143860613-8317cff4-40b6-4a67-93da-f7c8004641d7.png)
+
+### Project details tab with Comment box
+![image](https://user-images.githubusercontent.com/17979853/143860764-d2a0b320-f6c8-4950-940c-6a83eab8f488.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
