@@ -1,0 +1,87 @@
+.project-list {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 20px;
+}
+.project-list a {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 6px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: inherit;
+}
+.project-list h4 {
+  font-size: 1.05em;
+  display: flex;
+  color: var(--heading-color);
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.project-list p {
+  color: var(--text-color);
+  font-size: 0.9em;
+}
+.project-list p .overdue-label {
+    color: red;
+    font-size: 14px;
+    font-weight: 500;
+    background: pink;
+    border-radius: 3px;
+    border: 1px solid red;
+    padding: 2px 4px 2px 4px;
+    margin-left: 5px;
+}
+.project-list .assigned-to {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+.project-list ul {
+  margin: 6px 0;
+  display: flex;
+}
+.project-list li {
+  margin-right: 10px;
+}
+.project-list .project-priority {
+    vertical-align: middle;
+    margin: 5px 0;
+    font-weight: 500;
+}
+.project-list .priority-blocker {
+    font-size: 1.025em;
+    color: darkred;
+}
+.project-list .priority-critical {
+    font-size: 1.025em;
+    color: orangered;
+}
+.project-list .priority-major {
+    font-size: 1.025em;
+    color: orange;
+}
+.project-list .priority-minor {
+    font-size: 1.025em;
+    color: cornflowerblue;
+}
+.project-list .priority-trivial {
+    font-size: 1.025em;
+    color: palegreen;
+}
+.project-list .project-snippet {
+    margin: 10px 0;
+}
+.project-list .project-comment-number {
+    font-size: 16px;
+    margin: 4px auto;
+}
+.project-list .comment-icon {
+    margin-right: 8px;
+}
+.project-list .avatar {
+  width: 35px;
+  height: 35px;
+}
